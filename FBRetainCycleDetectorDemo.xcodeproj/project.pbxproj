@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325AC40DB28DFD56C4DC8D07 /* libPods-FBRetainCycleDetectorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4E171A803E5EEE6853F066 /* libPods-FBRetainCycleDetectorDemo.a */; };
+		682D9B492356BE260096E5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D9B482356BE260096E5B4 /* AppDelegate.m */; };
+		682D9B4C2356BE260096E5B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D9B4B2356BE260096E5B4 /* ViewController.m */; };
+		682D9B4F2356BE260096E5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682D9B4D2356BE260096E5B4 /* Main.storyboard */; };
+		682D9B512356BE270096E5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682D9B502356BE270096E5B4 /* Assets.xcassets */; };
+		682D9B542356BE270096E5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682D9B522356BE270096E5B4 /* LaunchScreen.storyboard */; };
+		682D9B572356BE270096E5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D9B562356BE270096E5B4 /* main.m */; };
+		682D9B612356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D9B602356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.m */; };
+		682D9B6C2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682D9B6B2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		682D9B5D2356BE270096E5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682D9B3C2356BE260096E5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682D9B432356BE260096E5B4;
+			remoteInfo = FBRetainCycleDetectorDemo;
+		};
+		682D9B682356BE270096E5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682D9B3C2356BE260096E5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682D9B432356BE260096E5B4;
+			remoteInfo = FBRetainCycleDetectorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		682D9B442356BE260096E5B4 /* FBRetainCycleDetectorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBRetainCycleDetectorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		682D9B472356BE260096E5B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		682D9B482356BE260096E5B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		682D9B4A2356BE260096E5B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		682D9B4B2356BE260096E5B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		682D9B4E2356BE260096E5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		682D9B502356BE270096E5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		682D9B532356BE270096E5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		682D9B552356BE270096E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682D9B562356BE270096E5B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		682D9B5C2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBRetainCycleDetectorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		682D9B602356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetectorDemoTests.m; sourceTree = "<group>"; };
+		682D9B622356BE270096E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682D9B672356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBRetainCycleDetectorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		682D9B6B2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetectorDemoUITests.m; sourceTree = "<group>"; };
+		682D9B6D2356BE270096E5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7936AFD3F69FD5ED394EE01A /* Pods-FBRetainCycleDetectorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorDemo.release.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorDemo/Pods-FBRetainCycleDetectorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB4E171A803E5EEE6853F066 /* libPods-FBRetainCycleDetectorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBRetainCycleDetectorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A779D9422BE6AFAC87B532 /* Pods-FBRetainCycleDetectorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorDemo.debug.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorDemo/Pods-FBRetainCycleDetectorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682D9B412356BE260096E5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325AC40DB28DFD56C4DC8D07 /* libPods-FBRetainCycleDetectorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D9B592356BE270096E5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D9B642356BE270096E5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF6D483EFD3E5A3B6FEA952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A779D9422BE6AFAC87B532 /* Pods-FBRetainCycleDetectorDemo.debug.xcconfig */,
+				7936AFD3F69FD5ED394EE01A /* Pods-FBRetainCycleDetectorDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54C4946A16C8BBCE7FBC2D27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB4E171A803E5EEE6853F066 /* libPods-FBRetainCycleDetectorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		682D9B3B2356BE260096E5B4 = {
+			isa = PBXGroup;
+			children = (
+				682D9B462356BE260096E5B4 /* FBRetainCycleDetectorDemo */,
+				682D9B5F2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests */,
+				682D9B6A2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests */,
+				682D9B452356BE260096E5B4 /* Products */,
+				4EF6D483EFD3E5A3B6FEA952 /* Pods */,
+				54C4946A16C8BBCE7FBC2D27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		682D9B452356BE260096E5B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682D9B442356BE260096E5B4 /* FBRetainCycleDetectorDemo.app */,
+				682D9B5C2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.xctest */,
+				682D9B672356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682D9B462356BE260096E5B4 /* FBRetainCycleDetectorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				682D9B472356BE260096E5B4 /* AppDelegate.h */,
+				682D9B482356BE260096E5B4 /* AppDelegate.m */,
+				682D9B4A2356BE260096E5B4 /* ViewController.h */,
+				682D9B4B2356BE260096E5B4 /* ViewController.m */,
+				682D9B4D2356BE260096E5B4 /* Main.storyboard */,
+				682D9B502356BE270096E5B4 /* Assets.xcassets */,
+				682D9B522356BE270096E5B4 /* LaunchScreen.storyboard */,
+				682D9B552356BE270096E5B4 /* Info.plist */,
+				682D9B562356BE270096E5B4 /* main.m */,
+			);
+			path = FBRetainCycleDetectorDemo;
+			sourceTree = "<group>";
+		};
+		682D9B5F2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				682D9B602356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.m */,
+				682D9B622356BE270096E5B4 /* Info.plist */,
+			);
+			path = FBRetainCycleDetectorDemoTests;
+			sourceTree = "<group>";
+		};
+		682D9B6A2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				682D9B6B2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.m */,
+				682D9B6D2356BE270096E5B4 /* Info.plist */,
+			);
+			path = FBRetainCycleDetectorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682D9B432356BE260096E5B4 /* FBRetainCycleDetectorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682D9B702356BE270096E5B4 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorDemo" */;
+			buildPhases = (
+				92254F93EB1D087EEC8B5E13 /* [CP] Check Pods Manifest.lock */,
+				682D9B402356BE260096E5B4 /* Sources */,
+				682D9B412356BE260096E5B4 /* Frameworks */,
+				682D9B422356BE260096E5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBRetainCycleDetectorDemo;
+			productName = FBRetainCycleDetectorDemo;
+			productReference = 682D9B442356BE260096E5B4 /* FBRetainCycleDetectorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		682D9B5B2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682D9B732356BE270096E5B4 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorDemoTests" */;
+			buildPhases = (
+				682D9B582356BE270096E5B4 /* Sources */,
+				682D9B592356BE270096E5B4 /* Frameworks */,
+				682D9B5A2356BE270096E5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682D9B5E2356BE270096E5B4 /* PBXTargetDependency */,
+			);
+			name = FBRetainCycleDetectorDemoTests;
+			productName = FBRetainCycleDetectorDemoTests;
+			productReference = 682D9B5C2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		682D9B662356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682D9B762356BE270096E5B4 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorDemoUITests" */;
+			buildPhases = (
+				682D9B632356BE270096E5B4 /* Sources */,
+				682D9B642356BE270096E5B4 /* Frameworks */,
+				682D9B652356BE270096E5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682D9B692356BE270096E5B4 /* PBXTargetDependency */,
+			);
+			name = FBRetainCycleDetectorDemoUITests;
+			productName = FBRetainCycleDetectorDemoUITests;
+			productReference = 682D9B672356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682D9B3C2356BE260096E5B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "郑锐";
+				TargetAttributes = {
+					682D9B432356BE260096E5B4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					682D9B5B2356BE270096E5B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 682D9B432356BE260096E5B4;
+					};
+					682D9B662356BE270096E5B4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 682D9B432356BE260096E5B4;
+					};
+				};
+			};
+			buildConfigurationList = 682D9B3F2356BE260096E5B4 /* Build configuration list for PBXProject "FBRetainCycleDetectorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 682D9B3B2356BE260096E5B4;
+			productRefGroup = 682D9B452356BE260096E5B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682D9B432356BE260096E5B4 /* FBRetainCycleDetectorDemo */,
+				682D9B5B2356BE270096E5B4 /* FBRetainCycleDetectorDemoTests */,
+				682D9B662356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682D9B422356BE260096E5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D9B542356BE270096E5B4 /* LaunchScreen.storyboard in Resources */,
+				682D9B512356BE270096E5B4 /* Assets.xcassets in Resources */,
+				682D9B4F2356BE260096E5B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D9B5A2356BE270096E5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D9B652356BE270096E5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92254F93EB1D087EEC8B5E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBRetainCycleDetectorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682D9B402356BE260096E5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D9B4C2356BE260096E5B4 /* ViewController.m in Sources */,
+				682D9B572356BE270096E5B4 /* main.m in Sources */,
+				682D9B492356BE260096E5B4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D9B582356BE270096E5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D9B612356BE270096E5B4 /* FBRetainCycleDetectorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682D9B632356BE270096E5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D9B6C2356BE270096E5B4 /* FBRetainCycleDetectorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682D9B5E2356BE270096E5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682D9B432356BE260096E5B4 /* FBRetainCycleDetectorDemo */;
+			targetProxy = 682D9B5D2356BE270096E5B4 /* PBXContainerItemProxy */;
+		};
+		682D9B692356BE270096E5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682D9B432356BE260096E5B4 /* FBRetainCycleDetectorDemo */;
+			targetProxy = 682D9B682356BE270096E5B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		682D9B4D2356BE260096E5B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682D9B4E2356BE260096E5B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		682D9B522356BE270096E5B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682D9B532356BE270096E5B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		682D9B6E2356BE270096E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		682D9B6F2356BE270096E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		682D9B712356BE270096E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A779D9422BE6AFAC87B532 /* Pods-FBRetainCycleDetectorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FBRetainCycleDetectorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zr.FBRetainCycleDetectorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		682D9B722356BE270096E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7936AFD3F69FD5ED394EE01A /* Pods-FBRetainCycleDetectorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FBRetainCycleDetectorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zr.FBRetainCycleDetectorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		682D9B742356BE270096E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FBRetainCycleDetectorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zr.FBRetainCycleDetectorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBRetainCycleDetectorDemo.app/FBRetainCycleDetectorDemo";
+			};
+			name = Debug;
+		};
+		682D9B752356BE270096E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FBRetainCycleDetectorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zr.FBRetainCycleDetectorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBRetainCycleDetectorDemo.app/FBRetainCycleDetectorDemo";
+			};
+			name = Release;
+		};
+		682D9B772356BE270096E5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FBRetainCycleDetectorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zr.FBRetainCycleDetectorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBRetainCycleDetectorDemo;
+			};
+			name = Debug;
+		};
+		682D9B782356BE270096E5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FBRetainCycleDetectorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zr.FBRetainCycleDetectorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBRetainCycleDetectorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682D9B3F2356BE260096E5B4 /* Build configuration list for PBXProject "FBRetainCycleDetectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682D9B6E2356BE270096E5B4 /* Debug */,
+				682D9B6F2356BE270096E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682D9B702356BE270096E5B4 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682D9B712356BE270096E5B4 /* Debug */,
+				682D9B722356BE270096E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682D9B732356BE270096E5B4 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682D9B742356BE270096E5B4 /* Debug */,
+				682D9B752356BE270096E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682D9B762356BE270096E5B4 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682D9B772356BE270096E5B4 /* Debug */,
+				682D9B782356BE270096E5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 682D9B3C2356BE260096E5B4 /* Project object */;
+}
